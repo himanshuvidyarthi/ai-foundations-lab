@@ -1,4 +1,4 @@
-# from dataclasses import dataclass, asdict 
+from dataclasses import dataclass, asdict 
 import json 
 
 # @dataclass 
@@ -80,4 +80,19 @@ with open("user.json", "r") as file:
     data = json.load(file)
 
 print(data)
+
+
+# create a dataclass --> User(name, age)
+# Create an instance of this class 
+# write this instance inside the user.json file
+
+@dataclass 
+class User:
+    name: str
+    age: str 
+
+u = User("Alice", 25)
+
+with open("user.json", "w") as file: 
+    json.dump(asdict(u), file, indent = 4)
 
