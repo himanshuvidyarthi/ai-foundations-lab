@@ -1,0 +1,6 @@
+{
+    "agent_name": "Databot_v2",
+    "model_engine": "gpt-4-turbo",
+    "max_retries": 3,
+    "is_active": true
+}
