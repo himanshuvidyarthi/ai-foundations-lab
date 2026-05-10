@@ -1,4 +1,4 @@
-#zip -- it helps iterates 2 lists parallely 
+#zip -- It takes multiple iterables (like lists or tuples) and "zips" their corresponding elements together into pairs.
 
 from itertools import zip_longest
 students = {'Alice', "Bob", "Charlie"}

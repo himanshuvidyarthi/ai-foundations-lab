@@ -44,3 +44,13 @@ try:
     print(lst[3])
 except IndexError:
     print("Invalid index to access the value!")
+
+
+# try:
+#     #risky code 
+
+# except:
+#     #handle error
+
+# finally:
+#     #always run
