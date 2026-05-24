@@ -1,6 +1,8 @@
 # Ignore local files and environment
 venv/
 secrets/
+.env
+**/.env
 faiss_extract_once_db/
 *.pyc
 __pycache__/
